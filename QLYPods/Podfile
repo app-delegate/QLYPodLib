@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+
+target 'QLYPods' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # 导入QLYHomeLib模块
+	# 本地模式
+	# pod 'QLYHomeLib', :path => '../QLYHomeLib'
+	pod 'QLYChatLib',:git => 'git@github.com:app-delegate/QLYChatLib.git'
+	pod 'QLYHomeLib',:git => 'git@github.com:app-delegate/QLYHomeLib.git'
+
+  pod 'CTMediator'
+
+  target 'QLYPodsTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'QLYPodsUITests' do
+    # Pods for testing
+  end
+
+end

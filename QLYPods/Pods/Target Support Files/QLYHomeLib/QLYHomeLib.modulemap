@@ -1,0 +1,6 @@
+framework module QLYHomeLib {
+  umbrella header "QLYHomeLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

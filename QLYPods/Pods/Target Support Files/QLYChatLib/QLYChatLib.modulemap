@@ -1,0 +1,6 @@
+framework module QLYChatLib {
+  umbrella header "QLYChatLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

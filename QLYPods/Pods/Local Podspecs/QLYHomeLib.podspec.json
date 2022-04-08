@@ -1,0 +1,55 @@
+{
+  "name": "QLYHomeLib",
+  "version": "0.1.0",
+  "summary": "A short description of QLYHomeLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/qinliying/QLYHomeLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qinliying": "appdelegate@sina.com"
+  },
+  "source": {
+    "git": "https://github.com/qinliying/QLYHomeLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "QLYHomeLib/Classes/QLYHomeHeader.h",
+  "public_header_files": "QLYHomeLib/Classes/QLYHomeHeader.h",
+  "resource_bundles": {
+    "QLYHomeLib": [
+      "QLYHomeLib/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Controllers",
+      "source_files": "QLYHomeLib/Classes/Controllers/*.{h,m}"
+    },
+    {
+      "name": "Models",
+      "source_files": "QLYHomeLib/Classes/Models/*.{h,m}"
+    },
+    {
+      "name": "bundleTool",
+      "source_files": "QLYHomeLib/Classes/bundleTool/*.{h,m}"
+    },
+    {
+      "name": "CTMediator_Category",
+      "source_files": "QLYHomeLib/Classes/CTMediator_Category/*.{h,m}"
+    },
+    {
+      "name": "Target",
+      "source_files": "QLYHomeLib/Classes/Target/*.{h,m}"
+    }
+  ]
+}

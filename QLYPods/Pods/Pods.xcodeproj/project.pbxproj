@@ -1,0 +1,1586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05A723D899CF00EB270E5A9D5BF80C62 /* QLYChatLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8705A9926186982DED04B9DA08511C5F /* QLYChatLib-dummy.m */; };
+		36B407DB0BEB20FE74CA1280C1DEB845 /* QLYHomeLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ADAA1762FB9F60119A083C07A903F6 /* QLYHomeLib-dummy.m */; };
+		40EB137066CB1AD902E559C952E0F868 /* Target_QLYHome.h in Headers */ = {isa = PBXBuildFile; fileRef = CE8ADF8F18CE98CD998EA0AC796F88B3 /* Target_QLYHome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42BE4417ABDCD43233C41CF267134F18 /* CTMediator+HandyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E1B5211866439F44A7950BAB5489DA9 /* CTMediator+HandyTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45367FF031476BD06B67582AC87CF7E7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B756E978F6EDFE855238EEF861EF0A30 /* ReplaceMe.m */; };
+		4B0E34E1CBC2D368D27D595771066FA9 /* CTMediator+QLYHome.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A3407FE8372FD4B92A530D14BE5F373 /* CTMediator+QLYHome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57F913906FE82D421D710579974826C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
+		5D012746230913CA366B3DE2CE2DA1E0 /* Pods-QLYPodsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F07123679FCB985C2E624D2B70692BF5 /* Pods-QLYPodsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E8D457465F2FC94851D0C0168E12C3A /* QLYHomeObj.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EB31E7738C5579444AF1D485DB88FD /* QLYHomeObj.m */; };
+		687A5753936C3FE850A3D27579E0676D /* Target_QLYHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B74B5751734BDFCA503EB01A49AB8E /* Target_QLYHome.m */; };
+		6B85ACC9D9B9C7B6E302F56FDC1F089D /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C59030C81A0D7A1D0FF8595604A87EDC /* CTMediator-dummy.m */; };
+		805FE8DB92B7F47248AC67D377CE3333 /* QLYBundleTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B285FC3A50CF3C9BB82EA6A03F66675 /* QLYBundleTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		842ED7D1D8344D4AB781B581F8CD920A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
+		85903D0B5F01241A2C37AF06F420F77F /* QLYBundleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C05D1440782C6F65847E2071AA9461D8 /* QLYBundleTool.m */; };
+		8925BEE060C2924137580517CB8E55B1 /* QLYHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D705DDCDFCB1076EDDCCBF66648567FB /* QLYHomeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8984129DF964712DFD92A31527DDB66C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
+		8FC1C23A469E9C7E5365B8EE107ABF0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B68540C55CA43970CDF0C24725F02FA /* CoreGraphics.framework */; };
+		95F863E53899448759D676E8708C1BB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
+		9751B86301119684D53A790F38C9AC15 /* Pods-QLYPods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6E20ED18362E6267A845418DC2AF9A2 /* Pods-QLYPods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9795588D949495AC2A332555D43FEF43 /* QLYHomeHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C08EEBC8532D7B35925F585212F4236C /* QLYHomeHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0CD6DE68F2006B4F67D23C95435AC59 /* QLYHomeLib-QLYHomeLib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA5048450A4C4F4A746B93251088692 /* QLYHomeLib-QLYHomeLib */; };
+		A759F760C4A83FDAD5CC410B59841321 /* QLYChatLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C23433D6D6B7A1996D1E35064E5BB699 /* QLYChatLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9B55B1D4DEEC9921C4F96DB95B33061 /* Pods-QLYPodsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FDB42847DF253DA9B464EAB125D621 /* Pods-QLYPodsTests-dummy.m */; };
+		B3BE8F979961BC77FA06A16BF43A14F6 /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0CEFAB8472817182B8D0FD6AF7FB50 /* CTMediator+HandyTools.m */; };
+		B4CAC5A086AC334AE537259782AC2543 /* btn_chatlive_audioaccept_high@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDBFD38818ACEBD2F06EE3BF9FED06CC /* btn_chatlive_audioaccept_high@2x.png */; };
+		B7FEF377E3AE69AD3731EC0EA95D98CF /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C6297BA19212D750E839062E55ABF97 /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8063E375D6C21AE0C2EAE2DD48EA9ED /* btn_chatlive_audioaccept_high@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CD58DFEF0712EBEBB58F2BE1EC1F86 /* btn_chatlive_audioaccept_high@3x.png */; };
+		C58542AAE2A402F85EBDBC9C4A7F09F4 /* QLYHomeLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 293449E0A5EE683A64CA79B9FF4EB18E /* QLYHomeLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6F5FFCEF422110139092748FE8F627F /* Pods-QLYPods-QLYPodsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B12CDC6FE4174568BC16198F0E6C868A /* Pods-QLYPods-QLYPodsUITests-dummy.m */; };
+		CAC59B1ADAB94EF73080DB47BC5EA0F5 /* QLYHomeObj.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A87503EEEAED1AE643E224B03E661D9 /* QLYHomeObj.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2FF768284C65A82AE9FA0A109A44EAD /* QLYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22313D87069E770DA70C336CDDBAF5CC /* QLYHomeViewController.m */; };
+		D3E89EDA31CBDBAA4FE23DF840D6516B /* Pods-QLYPods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2C5FB324D8106A0C2A9DD4CE6B3BEB /* Pods-QLYPods-dummy.m */; };
+		D4F2332AB277B884DD1F588984189042 /* Pods-QLYPods-QLYPodsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9112C62BC1988FAC73C45EFB3E72A30 /* Pods-QLYPods-QLYPodsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8EF7278A49E8FA5052F3E9BD388BB6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
+		EAEE20117ABE5388BFA2BE6BB04069FA /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE053C35AD219549BF5EDA22DB6211C /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBBB5961C4A14D98A9151F5ACAEFC096 /* CTMediator+QLYHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4B5BED710C0C16A62F24B9C2B07CA /* CTMediator+QLYHome.m */; };
+		EE01E1D77209EEEDD3DE2AA3B90171F1 /* QLYChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2758DFDF021ABBC65A09BC2AE2DCE8D3 /* QLYChatViewController.m */; };
+		F85A2193FE431256CDD6133B5109156E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
+		FC48763D071B2B60A02B28A915F5DD9F /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 754334F261B5F2902423A2877D5FC33C /* CTMediator.m */; };
+		FC546D96AC7C6A12E2432ACC2BC695D1 /* QLYChatViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 184C84695D5DBD8DDBB6774B9519E4C8 /* QLYChatViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		461AF3BCCBAF13A1CD03C8D1EB41090F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		5342EC6BD0DCA071C1F86A10627C88C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		559B16F706BFE8D20E779B8DF179E957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E51E48FC6B685A3FD24AED6339E4D13;
+			remoteInfo = "QLYHomeLib-QLYHomeLib";
+		};
+		55A067A9DCE54A764C354A4C3EDACAEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		5FFEFB23615C17391BB004F7D07C1A47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B4A7F5A72B6CF50E08428BBFA06258;
+			remoteInfo = "Pods-QLYPods";
+		};
+		6E7D515D7B8EBDC22CEBA2D78B0948D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D1B617AD2FB52702331962E6F30C189;
+			remoteInfo = QLYChatLib;
+		};
+		8739FDE08CDE592FFE3276C1B8F411B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A1A3D9710274457D60D9643F11E3AA;
+			remoteInfo = QLYHomeLib;
+		};
+		91E52F1475DBA0552F66F9B03A2826BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A1A3D9710274457D60D9643F11E3AA;
+			remoteInfo = QLYHomeLib;
+		};
+		E7846C51D6C7F017A3EBD1E086813365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D1B617AD2FB52702331962E6F30C189;
+			remoteInfo = QLYChatLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041355E405B7DD2A5161E3FD6DD94CF6 /* CTMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.release.xcconfig; sourceTree = "<group>"; };
+		076010626DDC3600EC59109CAA98F7C3 /* CTMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.debug.xcconfig; sourceTree = "<group>"; };
+		093B49FE6071D1A648FEE115D171FE87 /* QLYChatLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QLYChatLib; path = QLYChatLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B285FC3A50CF3C9BB82EA6A03F66675 /* QLYBundleTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLYBundleTool.h; path = QLYHomeLib/Classes/bundleTool/QLYBundleTool.h; sourceTree = "<group>"; };
+		1152D438B29AE8A40973432742E6B07B /* QLYChatLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QLYChatLib.debug.xcconfig; sourceTree = "<group>"; };
+		121FE67987A89107334D107B6A39FB28 /* Pods-QLYPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QLYPods.release.xcconfig"; sourceTree = "<group>"; };
+		184C84695D5DBD8DDBB6774B9519E4C8 /* QLYChatViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLYChatViewController.h; path = QLYChatLib/Classes/Controllers/QLYChatViewController.h; sourceTree = "<group>"; };
+		1F058518DB757A2F982CAA273FF730CA /* QLYHomeLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QLYHomeLib-prefix.pch"; sourceTree = "<group>"; };
+		1FD4B5BED710C0C16A62F24B9C2B07CA /* CTMediator+QLYHome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+QLYHome.m"; path = "QLYHomeLib/Classes/CTMediator_Category/CTMediator+QLYHome.m"; sourceTree = "<group>"; };
+		209C347A76E74630D86A77304102CDAB /* Pods-QLYPodsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QLYPodsTests.modulemap"; sourceTree = "<group>"; };
+		22313D87069E770DA70C336CDDBAF5CC /* QLYHomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLYHomeViewController.m; path = QLYHomeLib/Classes/Controllers/QLYHomeViewController.m; sourceTree = "<group>"; };
+		24385E840CE0BCD2090220BBEA57922B /* Pods-QLYPodsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QLYPodsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		25BC45DF5E34D1454AACB1DA8C96F415 /* Pods-QLYPods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QLYPods-frameworks.sh"; sourceTree = "<group>"; };
+		26C6FB0EDA2C124737B55F432EECF1D4 /* Pods-QLYPods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QLYPods-acknowledgements.plist"; sourceTree = "<group>"; };
+		2758DFDF021ABBC65A09BC2AE2DCE8D3 /* QLYChatViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLYChatViewController.m; path = QLYChatLib/Classes/Controllers/QLYChatViewController.m; sourceTree = "<group>"; };
+		293449E0A5EE683A64CA79B9FF4EB18E /* QLYHomeLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QLYHomeLib-umbrella.h"; sourceTree = "<group>"; };
+		2D2C5FB324D8106A0C2A9DD4CE6B3BEB /* Pods-QLYPods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QLYPods-dummy.m"; sourceTree = "<group>"; };
+		3B304FE381A99AECA06689447E9F5579 /* Pods-QLYPods-QLYPodsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QLYPods-QLYPodsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B7216FEAB48EDDCA4A806966E7EA4A8 /* Pods-QLYPodsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QLYPodsTests.release.xcconfig"; sourceTree = "<group>"; };
+		3DEEEDCCFCF68097352893A7A0E33335 /* Pods-QLYPods-QLYPodsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QLYPods-QLYPodsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		439D87FABD5A15716EE515C1B7967F52 /* Pods-QLYPods-QLYPodsUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QLYPods-QLYPodsUITests"; path = Pods_QLYPods_QLYPodsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B74B5751734BDFCA503EB01A49AB8E /* Target_QLYHome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_QLYHome.m; path = QLYHomeLib/Classes/Target/Target_QLYHome.m; sourceTree = "<group>"; };
+		4B68540C55CA43970CDF0C24725F02FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		4BE053C35AD219549BF5EDA22DB6211C /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		4CA5048450A4C4F4A746B93251088692 /* QLYHomeLib-QLYHomeLib */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "QLYHomeLib-QLYHomeLib"; path = QLYHomeLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5716FAA363A1D17E17A2A5252F5E860A /* Pods-QLYPodsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QLYPodsTests-Info.plist"; sourceTree = "<group>"; };
+		59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A3407FE8372FD4B92A530D14BE5F373 /* CTMediator+QLYHome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+QLYHome.h"; path = "QLYHomeLib/Classes/CTMediator_Category/CTMediator+QLYHome.h"; sourceTree = "<group>"; };
+		606A5AF0FF076398D2C3BADE082D8B7F /* QLYChatLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QLYChatLib.release.xcconfig; sourceTree = "<group>"; };
+		67FDB42847DF253DA9B464EAB125D621 /* Pods-QLYPodsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QLYPodsTests-dummy.m"; sourceTree = "<group>"; };
+		68E12D841C18F35B5DEF9424A81A26D4 /* Pods-QLYPods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QLYPods.modulemap"; sourceTree = "<group>"; };
+		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6297BA19212D750E839062E55ABF97 /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
+		6D0CEFAB8472817182B8D0FD6AF7FB50 /* CTMediator+HandyTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+HandyTools.m"; path = "CTMediator/CTMediator/CTMediator+HandyTools.m"; sourceTree = "<group>"; };
+		738F3E1E080F673287BD87B206500DD9 /* Pods-QLYPods-QLYPodsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QLYPods-QLYPodsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		754334F261B5F2902423A2877D5FC33C /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		78F62B440884E6A355B81D30F5DC2938 /* QLYHomeLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QLYHomeLib.debug.xcconfig; sourceTree = "<group>"; };
+		7A87503EEEAED1AE643E224B03E661D9 /* QLYHomeObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLYHomeObj.h; path = QLYHomeLib/Classes/Models/QLYHomeObj.h; sourceTree = "<group>"; };
+		7C39BB090D3410539CBA63EF2A8E0D2D /* Pods-QLYPods-QLYPodsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QLYPods-QLYPodsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		82986BE801DC8A11DF2ECE7564A76B99 /* Pods-QLYPods-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QLYPods-Info.plist"; sourceTree = "<group>"; };
+		83CD58DFEF0712EBEBB58F2BE1EC1F86 /* btn_chatlive_audioaccept_high@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_chatlive_audioaccept_high@3x.png"; path = "QLYHomeLib/Assets/btn_chatlive_audioaccept_high@3x.png"; sourceTree = "<group>"; };
+		8705A9926186982DED04B9DA08511C5F /* QLYChatLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QLYChatLib-dummy.m"; sourceTree = "<group>"; };
+		8D820C7E5929C5D0C3427AE0FF849A3F /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
+		95624A6DBFAA0C35E66430F21D19D6F8 /* Pods-QLYPods-QLYPodsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QLYPods-QLYPodsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95D4C0795E74DABF50B6B4CBDD313D78 /* QLYHomeLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QLYHomeLib.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E1B5211866439F44A7950BAB5489DA9 /* CTMediator+HandyTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+HandyTools.h"; path = "CTMediator/CTMediator/CTMediator+HandyTools.h"; sourceTree = "<group>"; };
+		A565385D4118D3E1312D31717BD7837E /* Pods-QLYPods-QLYPodsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QLYPods-QLYPodsUITests.modulemap"; sourceTree = "<group>"; };
+		ACFAFA3F206C6F688FB854C032589BC3 /* QLYHomeLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QLYHomeLib; path = QLYHomeLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7792B40E4D1B9874AC7B5A5AE8BFEF /* QLYChatLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QLYChatLib-Info.plist"; sourceTree = "<group>"; };
+		AEC5705AA1213A1C2C6DEF24E956559E /* Pods-QLYPods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QLYPods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B12CDC6FE4174568BC16198F0E6C868A /* Pods-QLYPods-QLYPodsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QLYPods-QLYPodsUITests-dummy.m"; sourceTree = "<group>"; };
+		B2ADAA1762FB9F60119A083C07A903F6 /* QLYHomeLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QLYHomeLib-dummy.m"; sourceTree = "<group>"; };
+		B756E978F6EDFE855238EEF861EF0A30 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = QLYChatLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		B76368153172FA1561307EEC0F7DD669 /* Pods-QLYPodsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QLYPodsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9112C62BC1988FAC73C45EFB3E72A30 /* Pods-QLYPods-QLYPodsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QLYPods-QLYPodsUITests-umbrella.h"; sourceTree = "<group>"; };
+		C05D1440782C6F65847E2071AA9461D8 /* QLYBundleTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLYBundleTool.m; path = QLYHomeLib/Classes/bundleTool/QLYBundleTool.m; sourceTree = "<group>"; };
+		C08EEBC8532D7B35925F585212F4236C /* QLYHomeHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLYHomeHeader.h; path = QLYHomeLib/Classes/QLYHomeHeader.h; sourceTree = "<group>"; };
+		C23433D6D6B7A1996D1E35064E5BB699 /* QLYChatLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QLYChatLib-umbrella.h"; sourceTree = "<group>"; };
+		C2EB31E7738C5579444AF1D485DB88FD /* QLYHomeObj.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLYHomeObj.m; path = QLYHomeLib/Classes/Models/QLYHomeObj.m; sourceTree = "<group>"; };
+		C4B2C73D4FE15AAD54A3B7512B9A11FD /* Pods-QLYPods-QLYPodsUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QLYPods-QLYPodsUITests-Info.plist"; sourceTree = "<group>"; };
+		C59030C81A0D7A1D0FF8595604A87EDC /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		C6E20ED18362E6267A845418DC2AF9A2 /* Pods-QLYPods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QLYPods-umbrella.h"; sourceTree = "<group>"; };
+		C927C2630CDE0332FB105D9131963FF7 /* QLYHomeLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QLYHomeLib.release.xcconfig; sourceTree = "<group>"; };
+		CE8ADF8F18CE98CD998EA0AC796F88B3 /* Target_QLYHome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_QLYHome.h; path = QLYHomeLib/Classes/Target/Target_QLYHome.h; sourceTree = "<group>"; };
+		D4D6201D9BAD6B5002B28F33D821F60F /* Pods-QLYPods */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QLYPods"; path = Pods_QLYPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D6E201C462CE97D3E5BAB7C702855A /* QLYHomeLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QLYHomeLib-Info.plist"; sourceTree = "<group>"; };
+		D705DDCDFCB1076EDDCCBF66648567FB /* QLYHomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLYHomeViewController.h; path = QLYHomeLib/Classes/Controllers/QLYHomeViewController.h; sourceTree = "<group>"; };
+		DDBFD38818ACEBD2F06EE3BF9FED06CC /* btn_chatlive_audioaccept_high@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_chatlive_audioaccept_high@2x.png"; path = "QLYHomeLib/Assets/btn_chatlive_audioaccept_high@2x.png"; sourceTree = "<group>"; };
+		E37749DD54F6F578EBF1E3A11ED3E319 /* Pods-QLYPodsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QLYPodsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EEE980E831EBB669F601455304F50ED3 /* QLYChatLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QLYChatLib.modulemap; sourceTree = "<group>"; };
+		EFD8A12C7227A2E2B437BEEEDA45558A /* Pods-QLYPodsTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QLYPodsTests"; path = Pods_QLYPodsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07123679FCB985C2E624D2B70692BF5 /* Pods-QLYPodsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QLYPodsTests-umbrella.h"; sourceTree = "<group>"; };
+		F7DE11655A8DA36F3898119B1FA51DF7 /* ResourceBundle-QLYHomeLib-QLYHomeLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-QLYHomeLib-QLYHomeLib-Info.plist"; sourceTree = "<group>"; };
+		F8CF20108A93F146DFCA240801BF6F78 /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		FD1758C394CFA11BDDD1E081413A05D0 /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
+		FD886937B4C40673424E7EA777150254 /* Pods-QLYPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QLYPods.debug.xcconfig"; sourceTree = "<group>"; };
+		FF999CC9F0FD537033D30E61025E375E /* QLYChatLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QLYChatLib-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		485A71516E39B55086D44886014B8B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610C20754FC30BDC1152A6710F7B8E7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8EF7278A49E8FA5052F3E9BD388BB6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11B85E392DAB27ACAE9296A4154DE06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F863E53899448759D676E8708C1BB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5D0234E141C8142CCC44FC251FC1F44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC1C23A469E9C7E5365B8EE107ABF0B /* CoreGraphics.framework in Frameworks */,
+				57F913906FE82D421D710579974826C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F0B55D7B9460FDD95B50DC96F5828C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842ED7D1D8344D4AB781B581F8CD920A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D14B3D997F08F20C6D9F9BF7F0FAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8984129DF964712DFD92A31527DDB66C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28C3C3BDF894621CD6F422586408C3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85A2193FE431256CDD6133B5109156E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0410C60259316D81DD0DD7BF32BCD9C0 /* Pods-QLYPodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				209C347A76E74630D86A77304102CDAB /* Pods-QLYPodsTests.modulemap */,
+				B76368153172FA1561307EEC0F7DD669 /* Pods-QLYPodsTests-acknowledgements.markdown */,
+				E37749DD54F6F578EBF1E3A11ED3E319 /* Pods-QLYPodsTests-acknowledgements.plist */,
+				67FDB42847DF253DA9B464EAB125D621 /* Pods-QLYPodsTests-dummy.m */,
+				5716FAA363A1D17E17A2A5252F5E860A /* Pods-QLYPodsTests-Info.plist */,
+				F07123679FCB985C2E624D2B70692BF5 /* Pods-QLYPodsTests-umbrella.h */,
+				24385E840CE0BCD2090220BBEA57922B /* Pods-QLYPodsTests.debug.xcconfig */,
+				3B7216FEAB48EDDCA4A806966E7EA4A8 /* Pods-QLYPodsTests.release.xcconfig */,
+			);
+			name = "Pods-QLYPodsTests";
+			path = "Target Support Files/Pods-QLYPodsTests";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8001EF1E8C372FD31EFFB43C3FBF6F94 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26AA8C2907A6105B1FCC493BBBB06CBB /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				4BE053C35AD219549BF5EDA22DB6211C /* CTMediator.h */,
+				754334F261B5F2902423A2877D5FC33C /* CTMediator.m */,
+				9E1B5211866439F44A7950BAB5489DA9 /* CTMediator+HandyTools.h */,
+				6D0CEFAB8472817182B8D0FD6AF7FB50 /* CTMediator+HandyTools.m */,
+				4BAA27605ACCA2CA1D3EF1DE0C94D30B /* Support Files */,
+			);
+			name = CTMediator;
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		2A76AF3D3C23CFF48018E8EFF002820D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B2FCC2D3359C53D5620B8C2C6A5A8 /* Pods-QLYPods */,
+				CDCA1FA7045406D9CA58B891D5A472CB /* Pods-QLYPods-QLYPodsUITests */,
+				0410C60259316D81DD0DD7BF32BCD9C0 /* Pods-QLYPodsTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3ECB9C385C58135E40B7F9A2CBA745EA /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				CE8ADF8F18CE98CD998EA0AC796F88B3 /* Target_QLYHome.h */,
+				45B74B5751734BDFCA503EB01A49AB8E /* Target_QLYHome.m */,
+			);
+			name = Target;
+			sourceTree = "<group>";
+		};
+		4B3B2FCC2D3359C53D5620B8C2C6A5A8 /* Pods-QLYPods */ = {
+			isa = PBXGroup;
+			children = (
+				68E12D841C18F35B5DEF9424A81A26D4 /* Pods-QLYPods.modulemap */,
+				AEC5705AA1213A1C2C6DEF24E956559E /* Pods-QLYPods-acknowledgements.markdown */,
+				26C6FB0EDA2C124737B55F432EECF1D4 /* Pods-QLYPods-acknowledgements.plist */,
+				2D2C5FB324D8106A0C2A9DD4CE6B3BEB /* Pods-QLYPods-dummy.m */,
+				25BC45DF5E34D1454AACB1DA8C96F415 /* Pods-QLYPods-frameworks.sh */,
+				82986BE801DC8A11DF2ECE7564A76B99 /* Pods-QLYPods-Info.plist */,
+				C6E20ED18362E6267A845418DC2AF9A2 /* Pods-QLYPods-umbrella.h */,
+				FD886937B4C40673424E7EA777150254 /* Pods-QLYPods.debug.xcconfig */,
+				121FE67987A89107334D107B6A39FB28 /* Pods-QLYPods.release.xcconfig */,
+			);
+			name = "Pods-QLYPods";
+			path = "Target Support Files/Pods-QLYPods";
+			sourceTree = "<group>";
+		};
+		4BAA27605ACCA2CA1D3EF1DE0C94D30B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD1758C394CFA11BDDD1E081413A05D0 /* CTMediator.modulemap */,
+				C59030C81A0D7A1D0FF8595604A87EDC /* CTMediator-dummy.m */,
+				8D820C7E5929C5D0C3427AE0FF849A3F /* CTMediator-Info.plist */,
+				F8CF20108A93F146DFCA240801BF6F78 /* CTMediator-prefix.pch */,
+				6C6297BA19212D750E839062E55ABF97 /* CTMediator-umbrella.h */,
+				076010626DDC3600EC59109CAA98F7C3 /* CTMediator.debug.xcconfig */,
+				041355E405B7DD2A5161E3FD6DD94CF6 /* CTMediator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
+			sourceTree = "<group>";
+		};
+		4E98A03E523FCBEECF16ACB928FAF567 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A87503EEEAED1AE643E224B03E661D9 /* QLYHomeObj.h */,
+				C2EB31E7738C5579444AF1D485DB88FD /* QLYHomeObj.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		597C3ECFB2E16C5E20D298A96ED9DC8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26AA8C2907A6105B1FCC493BBBB06CBB /* CTMediator */,
+				E132ADB541C6ECD57B69BC617C39C744 /* QLYChatLib */,
+				E4FA3F8915F81D7D926333B5281A3E96 /* QLYHomeLib */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		63003C5F0D08F9CE1BBA33C919B7CE3F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95D4C0795E74DABF50B6B4CBDD313D78 /* QLYHomeLib.modulemap */,
+				B2ADAA1762FB9F60119A083C07A903F6 /* QLYHomeLib-dummy.m */,
+				D6D6E201C462CE97D3E5BAB7C702855A /* QLYHomeLib-Info.plist */,
+				1F058518DB757A2F982CAA273FF730CA /* QLYHomeLib-prefix.pch */,
+				293449E0A5EE683A64CA79B9FF4EB18E /* QLYHomeLib-umbrella.h */,
+				78F62B440884E6A355B81D30F5DC2938 /* QLYHomeLib.debug.xcconfig */,
+				C927C2630CDE0332FB105D9131963FF7 /* QLYHomeLib.release.xcconfig */,
+				F7DE11655A8DA36F3898119B1FA51DF7 /* ResourceBundle-QLYHomeLib-QLYHomeLib-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QLYHomeLib";
+			sourceTree = "<group>";
+		};
+		6307761F6728703EB227D8048DE27550 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEE980E831EBB669F601455304F50ED3 /* QLYChatLib.modulemap */,
+				8705A9926186982DED04B9DA08511C5F /* QLYChatLib-dummy.m */,
+				AD7792B40E4D1B9874AC7B5A5AE8BFEF /* QLYChatLib-Info.plist */,
+				FF999CC9F0FD537033D30E61025E375E /* QLYChatLib-prefix.pch */,
+				C23433D6D6B7A1996D1E35064E5BB699 /* QLYChatLib-umbrella.h */,
+				1152D438B29AE8A40973432742E6B07B /* QLYChatLib.debug.xcconfig */,
+				606A5AF0FF076398D2C3BADE082D8B7F /* QLYChatLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QLYChatLib";
+			sourceTree = "<group>";
+		};
+		8001EF1E8C372FD31EFFB43C3FBF6F94 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4B68540C55CA43970CDF0C24725F02FA /* CoreGraphics.framework */,
+				59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A71ECB6D1E98406D844F5C6B99DA821A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D705DDCDFCB1076EDDCCBF66648567FB /* QLYHomeViewController.h */,
+				22313D87069E770DA70C336CDDBAF5CC /* QLYHomeViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AF47A405ABAAF79173253BDBE4266188 /* CTMediator_Category */ = {
+			isa = PBXGroup;
+			children = (
+				5A3407FE8372FD4B92A530D14BE5F373 /* CTMediator+QLYHome.h */,
+				1FD4B5BED710C0C16A62F24B9C2B07CA /* CTMediator+QLYHome.m */,
+			);
+			name = CTMediator_Category;
+			sourceTree = "<group>";
+		};
+		B8E52472229E40757A9B82B5A4F730B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator */,
+				D4D6201D9BAD6B5002B28F33D821F60F /* Pods-QLYPods */,
+				439D87FABD5A15716EE515C1B7967F52 /* Pods-QLYPods-QLYPodsUITests */,
+				EFD8A12C7227A2E2B437BEEEDA45558A /* Pods-QLYPodsTests */,
+				093B49FE6071D1A648FEE115D171FE87 /* QLYChatLib */,
+				ACFAFA3F206C6F688FB854C032589BC3 /* QLYHomeLib */,
+				4CA5048450A4C4F4A746B93251088692 /* QLYHomeLib-QLYHomeLib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDCA1FA7045406D9CA58B891D5A472CB /* Pods-QLYPods-QLYPodsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A565385D4118D3E1312D31717BD7837E /* Pods-QLYPods-QLYPodsUITests.modulemap */,
+				3B304FE381A99AECA06689447E9F5579 /* Pods-QLYPods-QLYPodsUITests-acknowledgements.markdown */,
+				3DEEEDCCFCF68097352893A7A0E33335 /* Pods-QLYPods-QLYPodsUITests-acknowledgements.plist */,
+				B12CDC6FE4174568BC16198F0E6C868A /* Pods-QLYPods-QLYPodsUITests-dummy.m */,
+				7C39BB090D3410539CBA63EF2A8E0D2D /* Pods-QLYPods-QLYPodsUITests-frameworks.sh */,
+				C4B2C73D4FE15AAD54A3B7512B9A11FD /* Pods-QLYPods-QLYPodsUITests-Info.plist */,
+				B9112C62BC1988FAC73C45EFB3E72A30 /* Pods-QLYPods-QLYPodsUITests-umbrella.h */,
+				738F3E1E080F673287BD87B206500DD9 /* Pods-QLYPods-QLYPodsUITests.debug.xcconfig */,
+				95624A6DBFAA0C35E66430F21D19D6F8 /* Pods-QLYPods-QLYPodsUITests.release.xcconfig */,
+			);
+			name = "Pods-QLYPods-QLYPodsUITests";
+			path = "Target Support Files/Pods-QLYPods-QLYPodsUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				597C3ECFB2E16C5E20D298A96ED9DC8A /* Pods */,
+				B8E52472229E40757A9B82B5A4F730B5 /* Products */,
+				2A76AF3D3C23CFF48018E8EFF002820D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D23CEA1CCB2DF13F934AA30FF2EE6775 /* bundleTool */ = {
+			isa = PBXGroup;
+			children = (
+				0B285FC3A50CF3C9BB82EA6A03F66675 /* QLYBundleTool.h */,
+				C05D1440782C6F65847E2071AA9461D8 /* QLYBundleTool.m */,
+			);
+			name = bundleTool;
+			sourceTree = "<group>";
+		};
+		E132ADB541C6ECD57B69BC617C39C744 /* QLYChatLib */ = {
+			isa = PBXGroup;
+			children = (
+				184C84695D5DBD8DDBB6774B9519E4C8 /* QLYChatViewController.h */,
+				2758DFDF021ABBC65A09BC2AE2DCE8D3 /* QLYChatViewController.m */,
+				B756E978F6EDFE855238EEF861EF0A30 /* ReplaceMe.m */,
+				6307761F6728703EB227D8048DE27550 /* Support Files */,
+			);
+			name = QLYChatLib;
+			path = QLYChatLib;
+			sourceTree = "<group>";
+		};
+		E4FA3F8915F81D7D926333B5281A3E96 /* QLYHomeLib */ = {
+			isa = PBXGroup;
+			children = (
+				C08EEBC8532D7B35925F585212F4236C /* QLYHomeHeader.h */,
+				D23CEA1CCB2DF13F934AA30FF2EE6775 /* bundleTool */,
+				A71ECB6D1E98406D844F5C6B99DA821A /* Controllers */,
+				AF47A405ABAAF79173253BDBE4266188 /* CTMediator_Category */,
+				4E98A03E523FCBEECF16ACB928FAF567 /* Models */,
+				F097DB28E6800C54D9CB9AFFFCE6D657 /* Resources */,
+				63003C5F0D08F9CE1BBA33C919B7CE3F /* Support Files */,
+				3ECB9C385C58135E40B7F9A2CBA745EA /* Target */,
+			);
+			name = QLYHomeLib;
+			path = QLYHomeLib;
+			sourceTree = "<group>";
+		};
+		F097DB28E6800C54D9CB9AFFFCE6D657 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDBFD38818ACEBD2F06EE3BF9FED06CC /* btn_chatlive_audioaccept_high@2x.png */,
+				83CD58DFEF0712EBEBB58F2BE1EC1F86 /* btn_chatlive_audioaccept_high@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		47BE358A2FE8498D084C5FA45992194B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F2332AB277B884DD1F588984189042 /* Pods-QLYPods-QLYPodsUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625E1BAAF8C7948FEE77963B2EAC893F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9751B86301119684D53A790F38C9AC15 /* Pods-QLYPods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EE67D42A1B011473995F6E6663BFF3A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEE20117ABE5388BFA2BE6BB04069FA /* CTMediator.h in Headers */,
+				42BE4417ABDCD43233C41CF267134F18 /* CTMediator+HandyTools.h in Headers */,
+				B7FEF377E3AE69AD3731EC0EA95D98CF /* CTMediator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF62AE1A61F01DBF54C99801D5BEE53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0E34E1CBC2D368D27D595771066FA9 /* CTMediator+QLYHome.h in Headers */,
+				805FE8DB92B7F47248AC67D377CE3333 /* QLYBundleTool.h in Headers */,
+				9795588D949495AC2A332555D43FEF43 /* QLYHomeHeader.h in Headers */,
+				C58542AAE2A402F85EBDBC9C4A7F09F4 /* QLYHomeLib-umbrella.h in Headers */,
+				CAC59B1ADAB94EF73080DB47BC5EA0F5 /* QLYHomeObj.h in Headers */,
+				8925BEE060C2924137580517CB8E55B1 /* QLYHomeViewController.h in Headers */,
+				40EB137066CB1AD902E559C952E0F868 /* Target_QLYHome.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B707D530E4EA26A04C30779077F740B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A759F760C4A83FDAD5CC410B59841321 /* QLYChatLib-umbrella.h in Headers */,
+				FC546D96AC7C6A12E2432ACC2BC695D1 /* QLYChatViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDC9F5A5BB81D043C849238B751677D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D012746230913CA366B3DE2CE2DA1E0 /* Pods-QLYPodsTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19B4A7F5A72B6CF50E08428BBFA06258 /* Pods-QLYPods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C8CC17C8598D1F344DD6287858E5E2 /* Build configuration list for PBXNativeTarget "Pods-QLYPods" */;
+			buildPhases = (
+				625E1BAAF8C7948FEE77963B2EAC893F /* Headers */,
+				CD9D6C05F7A35A53E945767D5FD752BA /* Sources */,
+				A11B85E392DAB27ACAE9296A4154DE06 /* Frameworks */,
+				1EDD006138881DC5AAA72EF986E7B791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE1C7B78E9B6B1D339DE32EA53787E96 /* PBXTargetDependency */,
+				D38BE7834ED4C5B2B875275C84AC45E2 /* PBXTargetDependency */,
+				5D513B18590ECD9342954772714D96EA /* PBXTargetDependency */,
+			);
+			name = "Pods-QLYPods";
+			productName = Pods_QLYPods;
+			productReference = D4D6201D9BAD6B5002B28F33D821F60F /* Pods-QLYPods */;
+			productType = "com.apple.product-type.framework";
+		};
+		1E51E48FC6B685A3FD24AED6339E4D13 /* QLYHomeLib-QLYHomeLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2D8DFEA2384B3071E9B62A4F8B2E7D6 /* Build configuration list for PBXNativeTarget "QLYHomeLib-QLYHomeLib" */;
+			buildPhases = (
+				10C690BF9B7AF4651D6ECC414C3C91F4 /* Sources */,
+				485A71516E39B55086D44886014B8B4C /* Frameworks */,
+				07BA1D2F543FFF318805D8A10B0D2CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QLYHomeLib-QLYHomeLib";
+			productName = QLYHomeLib;
+			productReference = 4CA5048450A4C4F4A746B93251088692 /* QLYHomeLib-QLYHomeLib */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5D1B617AD2FB52702331962E6F30C189 /* QLYChatLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E592CE08CC634CF7BEB06C75289AE7 /* Build configuration list for PBXNativeTarget "QLYChatLib" */;
+			buildPhases = (
+				B707D530E4EA26A04C30779077F740B7 /* Headers */,
+				742D4859881AE1915E63142ED6B4A10D /* Sources */,
+				A6F0B55D7B9460FDD95B50DC96F5828C /* Frameworks */,
+				A603D529CD3AD9DC6864EF2C8B3E3BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QLYChatLib;
+			productName = QLYChatLib;
+			productReference = 093B49FE6071D1A648FEE115D171FE87 /* QLYChatLib */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C33DF6F6234CC5280E19750C765B06A /* Build configuration list for PBXNativeTarget "CTMediator" */;
+			buildPhases = (
+				7EE67D42A1B011473995F6E6663BFF3A /* Headers */,
+				7D6A3641E1BB9B6870B1A4148AD8DF5C /* Sources */,
+				A5D0234E141C8142CCC44FC251FC1F44 /* Frameworks */,
+				949D0B60552582596D40F99B7ECB2170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = 68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator */;
+			productType = "com.apple.product-type.framework";
+		};
+		79A1A3D9710274457D60D9643F11E3AA /* QLYHomeLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0DCB51442F744C44BC863FE4D7F8E67 /* Build configuration list for PBXNativeTarget "QLYHomeLib" */;
+			buildPhases = (
+				9CF62AE1A61F01DBF54C99801D5BEE53 /* Headers */,
+				78D520AA1B363169DEE496F8961FA749 /* Sources */,
+				B28C3C3BDF894621CD6F422586408C3F /* Frameworks */,
+				E6E438B8C704DE7BB993121B3CF66827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3ED509F3F19E4D960C50FE9E51A9B18 /* PBXTargetDependency */,
+				9C867A65AA86F2DEADDC1C9AB85BC4F3 /* PBXTargetDependency */,
+			);
+			name = QLYHomeLib;
+			productName = QLYHomeLib;
+			productReference = ACFAFA3F206C6F688FB854C032589BC3 /* QLYHomeLib */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B5AD5F44EFE495B13A4F7A3E4470D22 /* Pods-QLYPodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AD08703AC4BCFAF20A676B483A6C8A4 /* Build configuration list for PBXNativeTarget "Pods-QLYPodsTests" */;
+			buildPhases = (
+				EFDC9F5A5BB81D043C849238B751677D /* Headers */,
+				487E4599DCE8331D6037538FDA8D0226 /* Sources */,
+				A9D14B3D997F08F20C6D9F9BF7F0FAEA /* Frameworks */,
+				EE9A4BC5BBCBF7B1B5C1EA68C030E182 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A9D497872B7E2D323DB678A03C522FA /* PBXTargetDependency */,
+			);
+			name = "Pods-QLYPodsTests";
+			productName = Pods_QLYPodsTests;
+			productReference = EFD8A12C7227A2E2B437BEEEDA45558A /* Pods-QLYPodsTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF724F0BE51EC6E678D30CAD7FA8443F /* Pods-QLYPods-QLYPodsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52393C07A657096DC67418DB884394CC /* Build configuration list for PBXNativeTarget "Pods-QLYPods-QLYPodsUITests" */;
+			buildPhases = (
+				47BE358A2FE8498D084C5FA45992194B /* Headers */,
+				6BDCA48CBFC944A4EB21D7DCC8AE81C2 /* Sources */,
+				610C20754FC30BDC1152A6710F7B8E7F /* Frameworks */,
+				DA98881BEAECEF669D5703F1238BCF7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D521BA5BFB2AACA97CAB95DF5FEB996C /* PBXTargetDependency */,
+				020C8559A61AEC5F11CA844366971F0C /* PBXTargetDependency */,
+				6BA20413ECD7F0A160733CFB1FA29D5D /* PBXTargetDependency */,
+			);
+			name = "Pods-QLYPods-QLYPodsUITests";
+			productName = Pods_QLYPods_QLYPodsUITests;
+			productReference = 439D87FABD5A15716EE515C1B7967F52 /* Pods-QLYPods-QLYPodsUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B8E52472229E40757A9B82B5A4F730B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */,
+				19B4A7F5A72B6CF50E08428BBFA06258 /* Pods-QLYPods */,
+				BF724F0BE51EC6E678D30CAD7FA8443F /* Pods-QLYPods-QLYPodsUITests */,
+				9B5AD5F44EFE495B13A4F7A3E4470D22 /* Pods-QLYPodsTests */,
+				5D1B617AD2FB52702331962E6F30C189 /* QLYChatLib */,
+				79A1A3D9710274457D60D9643F11E3AA /* QLYHomeLib */,
+				1E51E48FC6B685A3FD24AED6339E4D13 /* QLYHomeLib-QLYHomeLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07BA1D2F543FFF318805D8A10B0D2CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4CAC5A086AC334AE537259782AC2543 /* btn_chatlive_audioaccept_high@2x.png in Resources */,
+				B8063E375D6C21AE0C2EAE2DD48EA9ED /* btn_chatlive_audioaccept_high@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EDD006138881DC5AAA72EF986E7B791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		949D0B60552582596D40F99B7ECB2170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A603D529CD3AD9DC6864EF2C8B3E3BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA98881BEAECEF669D5703F1238BCF7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E438B8C704DE7BB993121B3CF66827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CD6DE68F2006B4F67D23C95435AC59 /* QLYHomeLib-QLYHomeLib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9A4BC5BBCBF7B1B5C1EA68C030E182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10C690BF9B7AF4651D6ECC414C3C91F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		487E4599DCE8331D6037538FDA8D0226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B55B1D4DEEC9921C4F96DB95B33061 /* Pods-QLYPodsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDCA48CBFC944A4EB21D7DCC8AE81C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F5FFCEF422110139092748FE8F627F /* Pods-QLYPods-QLYPodsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		742D4859881AE1915E63142ED6B4A10D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A723D899CF00EB270E5A9D5BF80C62 /* QLYChatLib-dummy.m in Sources */,
+				EE01E1D77209EEEDD3DE2AA3B90171F1 /* QLYChatViewController.m in Sources */,
+				45367FF031476BD06B67582AC87CF7E7 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D520AA1B363169DEE496F8961FA749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBB5961C4A14D98A9151F5ACAEFC096 /* CTMediator+QLYHome.m in Sources */,
+				85903D0B5F01241A2C37AF06F420F77F /* QLYBundleTool.m in Sources */,
+				36B407DB0BEB20FE74CA1280C1DEB845 /* QLYHomeLib-dummy.m in Sources */,
+				5E8D457465F2FC94851D0C0168E12C3A /* QLYHomeObj.m in Sources */,
+				D2FF768284C65A82AE9FA0A109A44EAD /* QLYHomeViewController.m in Sources */,
+				687A5753936C3FE850A3D27579E0676D /* Target_QLYHome.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6A3641E1BB9B6870B1A4148AD8DF5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC48763D071B2B60A02B28A915F5DD9F /* CTMediator.m in Sources */,
+				B3BE8F979961BC77FA06A16BF43A14F6 /* CTMediator+HandyTools.m in Sources */,
+				6B85ACC9D9B9C7B6E302F56FDC1F089D /* CTMediator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9D6C05F7A35A53E945767D5FD752BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E89EDA31CBDBAA4FE23DF840D6516B /* Pods-QLYPods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		020C8559A61AEC5F11CA844366971F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QLYChatLib;
+			target = 5D1B617AD2FB52702331962E6F30C189 /* QLYChatLib */;
+			targetProxy = 6E7D515D7B8EBDC22CEBA2D78B0948D6 /* PBXContainerItemProxy */;
+		};
+		3A9D497872B7E2D323DB678A03C522FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QLYPods";
+			target = 19B4A7F5A72B6CF50E08428BBFA06258 /* Pods-QLYPods */;
+			targetProxy = 5FFEFB23615C17391BB004F7D07C1A47 /* PBXContainerItemProxy */;
+		};
+		5D513B18590ECD9342954772714D96EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QLYHomeLib;
+			target = 79A1A3D9710274457D60D9643F11E3AA /* QLYHomeLib */;
+			targetProxy = 91E52F1475DBA0552F66F9B03A2826BA /* PBXContainerItemProxy */;
+		};
+		6BA20413ECD7F0A160733CFB1FA29D5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QLYHomeLib;
+			target = 79A1A3D9710274457D60D9643F11E3AA /* QLYHomeLib */;
+			targetProxy = 8739FDE08CDE592FFE3276C1B8F411B3 /* PBXContainerItemProxy */;
+		};
+		9C867A65AA86F2DEADDC1C9AB85BC4F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "QLYHomeLib-QLYHomeLib";
+			target = 1E51E48FC6B685A3FD24AED6339E4D13 /* QLYHomeLib-QLYHomeLib */;
+			targetProxy = 559B16F706BFE8D20E779B8DF179E957 /* PBXContainerItemProxy */;
+		};
+		D38BE7834ED4C5B2B875275C84AC45E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QLYChatLib;
+			target = 5D1B617AD2FB52702331962E6F30C189 /* QLYChatLib */;
+			targetProxy = E7846C51D6C7F017A3EBD1E086813365 /* PBXContainerItemProxy */;
+		};
+		D521BA5BFB2AACA97CAB95DF5FEB996C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 5342EC6BD0DCA071C1F86A10627C88C7 /* PBXContainerItemProxy */;
+		};
+		DE1C7B78E9B6B1D339DE32EA53787E96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 55A067A9DCE54A764C354A4C3EDACAEB /* PBXContainerItemProxy */;
+		};
+		F3ED509F3F19E4D960C50FE9E51A9B18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 461AF3BCCBAF13A1CD03C8D1EB41090F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E7E457599F9974F05A93CB6703B6417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C927C2630CDE0332FB105D9131963FF7 /* QLYHomeLib.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QLYHomeLib/QLYHomeLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QLYHomeLib/QLYHomeLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QLYHomeLib/QLYHomeLib.modulemap";
+				PRODUCT_MODULE_NAME = QLYHomeLib;
+				PRODUCT_NAME = QLYHomeLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		344A74DC21B5B411513BAA3FDC2FA68F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B7216FEAB48EDDCA4A806966E7EA4A8 /* Pods-QLYPodsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QLYPodsTests/Pods-QLYPodsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QLYPodsTests/Pods-QLYPodsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46749A2F5AD3C11ECAA83891488C70D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 121FE67987A89107334D107B6A39FB28 /* Pods-QLYPods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QLYPods/Pods-QLYPods-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QLYPods/Pods-QLYPods.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		561E917349F95C4C0B676991DB631F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78F62B440884E6A355B81D30F5DC2938 /* QLYHomeLib.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QLYHomeLib/QLYHomeLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QLYHomeLib/QLYHomeLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QLYHomeLib/QLYHomeLib.modulemap";
+				PRODUCT_MODULE_NAME = QLYHomeLib;
+				PRODUCT_NAME = QLYHomeLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59D7A69D9654699DCE82DFB02196E5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95624A6DBFAA0C35E66430F21D19D6F8 /* Pods-QLYPods-QLYPodsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QLYPods-QLYPodsUITests/Pods-QLYPods-QLYPodsUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QLYPods-QLYPodsUITests/Pods-QLYPods-QLYPodsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7719B38B5878170B5F314FB1A09D4BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 606A5AF0FF076398D2C3BADE082D8B7F /* QLYChatLib.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QLYChatLib/QLYChatLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QLYChatLib/QLYChatLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QLYChatLib/QLYChatLib.modulemap";
+				PRODUCT_MODULE_NAME = QLYChatLib;
+				PRODUCT_NAME = QLYChatLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		81EC1806EEA95929396F703673029E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 738F3E1E080F673287BD87B206500DD9 /* Pods-QLYPods-QLYPodsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QLYPods-QLYPodsUITests/Pods-QLYPods-QLYPodsUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QLYPods-QLYPodsUITests/Pods-QLYPods-QLYPodsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A907AE2F530AB41A5691F46CBBE6FD9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24385E840CE0BCD2090220BBEA57922B /* Pods-QLYPodsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QLYPodsTests/Pods-QLYPodsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QLYPodsTests/Pods-QLYPodsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B57F33A02384DA94BA58DFF4CDD58E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 076010626DDC3600EC59109CAA98F7C3 /* CTMediator.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7A20C57C935517523DFCB5596CD0B46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD886937B4C40673424E7EA777150254 /* Pods-QLYPods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QLYPods/Pods-QLYPods-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QLYPods/Pods-QLYPods.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC33875EE2D120590B207C0212D2EC66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1152D438B29AE8A40973432742E6B07B /* QLYChatLib.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QLYChatLib/QLYChatLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QLYChatLib/QLYChatLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QLYChatLib/QLYChatLib.modulemap";
+				PRODUCT_MODULE_NAME = QLYChatLib;
+				PRODUCT_NAME = QLYChatLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E28170A3C47E8324B2F405DC22E59307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 041355E405B7DD2A5161E3FD6DD94CF6 /* CTMediator.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5B015875308F462A4A8A58B391E5EBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78F62B440884E6A355B81D30F5DC2938 /* QLYHomeLib.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QLYHomeLib";
+				IBSC_MODULE = QLYHomeLib;
+				INFOPLIST_FILE = "Target Support Files/QLYHomeLib/ResourceBundle-QLYHomeLib-QLYHomeLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = QLYHomeLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F9EA8B25B0150C6B65599C9A2AB61FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C927C2630CDE0332FB105D9131963FF7 /* QLYHomeLib.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QLYHomeLib";
+				IBSC_MODULE = QLYHomeLib;
+				INFOPLIST_FILE = "Target Support Files/QLYHomeLib/ResourceBundle-QLYHomeLib-QLYHomeLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = QLYHomeLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52393C07A657096DC67418DB884394CC /* Build configuration list for PBXNativeTarget "Pods-QLYPods-QLYPodsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81EC1806EEA95929396F703673029E61 /* Debug */,
+				59D7A69D9654699DCE82DFB02196E5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C33DF6F6234CC5280E19750C765B06A /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57F33A02384DA94BA58DFF4CDD58E64 /* Debug */,
+				E28170A3C47E8324B2F405DC22E59307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C8CC17C8598D1F344DD6287858E5E2 /* Build configuration list for PBXNativeTarget "Pods-QLYPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A20C57C935517523DFCB5596CD0B46 /* Debug */,
+				46749A2F5AD3C11ECAA83891488C70D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AD08703AC4BCFAF20A676B483A6C8A4 /* Build configuration list for PBXNativeTarget "Pods-QLYPodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A907AE2F530AB41A5691F46CBBE6FD9A /* Debug */,
+				344A74DC21B5B411513BAA3FDC2FA68F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0DCB51442F744C44BC863FE4D7F8E67 /* Build configuration list for PBXNativeTarget "QLYHomeLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561E917349F95C4C0B676991DB631F11 /* Debug */,
+				0E7E457599F9974F05A93CB6703B6417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E592CE08CC634CF7BEB06C75289AE7 /* Build configuration list for PBXNativeTarget "QLYChatLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC33875EE2D120590B207C0212D2EC66 /* Debug */,
+				7719B38B5878170B5F314FB1A09D4BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2D8DFEA2384B3071E9B62A4F8B2E7D6 /* Build configuration list for PBXNativeTarget "QLYHomeLib-QLYHomeLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B015875308F462A4A8A58B391E5EBF /* Debug */,
+				F9EA8B25B0150C6B65599C9A2AB61FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

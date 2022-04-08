@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-QLYPods/Pods-QLYPods-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework
+${BUILT_PRODUCTS_DIR}/QLYChatLib/QLYChatLib.framework
+${BUILT_PRODUCTS_DIR}/QLYHomeLib/QLYHomeLib.framework

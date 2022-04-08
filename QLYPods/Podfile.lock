@@ -1,0 +1,52 @@
+PODS:
+  - CTMediator (46)
+  - QLYChatLib (0.1.0)
+  - QLYHomeLib (0.1.0):
+    - CTMediator
+    - QLYHomeLib/bundleTool (= 0.1.0)
+    - QLYHomeLib/Controllers (= 0.1.0)
+    - QLYHomeLib/CTMediator_Category (= 0.1.0)
+    - QLYHomeLib/Models (= 0.1.0)
+    - QLYHomeLib/Target (= 0.1.0)
+  - QLYHomeLib/bundleTool (0.1.0):
+    - CTMediator
+  - QLYHomeLib/Controllers (0.1.0):
+    - CTMediator
+  - QLYHomeLib/CTMediator_Category (0.1.0):
+    - CTMediator
+  - QLYHomeLib/Models (0.1.0):
+    - CTMediator
+  - QLYHomeLib/Target (0.1.0):
+    - CTMediator
+
+DEPENDENCIES:
+  - CTMediator
+  - "QLYChatLib (from `git@github.com:app-delegate/QLYChatLib.git`)"
+  - "QLYHomeLib (from `git@github.com:app-delegate/QLYHomeLib.git`)"
+
+SPEC REPOS:
+  trunk:
+    - CTMediator
+
+EXTERNAL SOURCES:
+  QLYChatLib:
+    :git: "git@github.com:app-delegate/QLYChatLib.git"
+  QLYHomeLib:
+    :git: "git@github.com:app-delegate/QLYHomeLib.git"
+
+CHECKOUT OPTIONS:
+  QLYChatLib:
+    :commit: 105acfa8478befaf6d256efe02927fb946df0dc8
+    :git: "git@github.com:app-delegate/QLYChatLib.git"
+  QLYHomeLib:
+    :commit: 6100d8d346023fed53ad750680dfb3a9a8c5b2dc
+    :git: "git@github.com:app-delegate/QLYHomeLib.git"
+
+SPEC CHECKSUMS:
+  CTMediator: f1cf58d509fb3192086c367711f039efd769b907
+  QLYChatLib: f0b8bc4ff465aceb633dc2713aed19053246408e
+  QLYHomeLib: d5e8182dba97385800aa685d4d3bc0f8fdb0d491
+
+PODFILE CHECKSUM: c60383603ef667ed33a4fef8db9dffb0b0fcfbd1
+
+COCOAPODS: 1.11.2
